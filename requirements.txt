@@ -1,0 +1,7 @@
+elastic_apm
+fastapi
+numpy
+pydantic
+python-dotenv
+sentence_transformers
+starlette

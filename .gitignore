@@ -1,0 +1,8 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+.env
+Logs/
+
+!model_ai/
+model_ai/*
+!model_ai/README.md
