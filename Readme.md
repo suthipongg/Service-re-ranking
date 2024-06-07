@@ -58,14 +58,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 Make sure you have the following software installed:
 
-- [GitHub Project](https://github.com/suthipongg/API-FeatureExtract)
-- [Re-Ranking Model](https://huggingface.co/Pongsasit/mod-th-cross-encoder)
+- [GitHub Project](https://github.com/suthipongg/Service-re-ranking.git)
+- [Re-Ranking Model](https://huggingface.co/Pongsasit/mod-th-cross-encoder) (Pongsasit/mod-th-cross-encoder)
+- [pm2](https://pm2.keymetrics.io/docs/usage/quick-start/)
 
 ### Installing
 
 1. Clone this GitHub repository:
   ```bash
-  git clone https://github.com/Nawaphong-13/API-Scanproducts.git
+  git clone https://github.com/suthipongg/Service-re-ranking.git
   ```
 
 2. Create a virtual environment:
@@ -86,9 +87,9 @@ Make sure you have the following software installed:
 
 5. Download the re-ranking model:
 
-Model Name | Description
+Model Name | Type
 ---|---
-mod-th-cross-encoder | [link](https://huggingface.co/Pongsasit/mod-th-cross-encoder)
+[Pongsasit/mod-th-cross-encoder](https://huggingface.co/Pongsasit/mod-th-cross-encoder)| cross-encoder
 
 ## 🔧 Running the tests <a name = "tests"></a>
 
@@ -140,6 +141,7 @@ This project is built using the following technologies:
 
 - [Python](https://www.python.org/) - Programming language
 - [FastAPI](https://fastapi.tiangolo.com/) - Web framework for building APIs with Python
+- [Hugging Face](https://huggingface.co/) - Open Source libraries for Machine Learning
 
 These technologies were chosen for their performance, scalability, and ease of use, enabling us to build a robust and efficient system for our project.
 
@@ -148,9 +150,9 @@ These technologies were chosen for their performance, scalability, and ease of u
 
 # Version History
 
-## [0.0.0] (2024-05-29)
+## [0.0.0] (2024-06-07)
 
-- Release date: May 29, 2024
+- Release date: June 7, 2024
 
 ### Added
 - Initial release of the project.

@@ -28,6 +28,7 @@ async def re_rank(
     return {
         "message": "success",
         "rerank_index": rerank_index.tolist(),
+        "rerank_score": rerank[rerank_index].tolist()
     }
     
 @re_ranking_route.get(
